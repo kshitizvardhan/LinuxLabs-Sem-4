@@ -1,0 +1,10 @@
+1. Viewing the manual page for gedit
+man gedit
+
+2. Found Command to tune ext4 file-system parameters, using the man -k ext4 command
+man tune2fs
+
+3. Using Brace Expansion for Discretionary Strings
+touch file{A,B,C}.txt
+touch file{1..5}.txt
+echo Checkpoint-{Jan,Feb,Mar}.tar.gz
